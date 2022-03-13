@@ -1,0 +1,182 @@
+* {
+  padding: o;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: auto;
+  margin: 0 auto;
+  background-color: #005961;
+  color: #edf6f9;
+  font-family: "Rubik", "sans-serif";
+}
+#intro-container {
+  height: 800px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.scrollnav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+  margin-top: 10px;
+}
+
+.scrollnav a {
+  font-size: 25px;
+  text-decoration: none;
+  color: #edf6f9;
+}
+
+.scrollnav a:hover {
+  text-decoration: overline;
+}
+
+.intro img {
+  margin-top: 80px;
+  border-radius: 100%;
+}
+
+.intro h1 {
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+.intro p {
+  color: #e9d8a6;
+}
+
+.aforismo-container {
+  background-color: #000000;
+  height: 200px;
+  text-align: center;
+}
+
+.aforismo h2 {
+  font-size: 40px;
+  padding-top: 50px;
+}
+.aforismo h4 {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+#about-container {
+  background-color: #0a9396;
+}
+
+.about {
+  padding: 30px 60px;
+  line-height: 22px;
+  font-size: 18px;
+}
+
+.about h2 {
+  text-align: center;
+  margin: 20px 30px;
+  font-size: 35px;
+}
+
+#pro-container {
+  background-color: #e9d8a6;
+}
+
+#pro-container h2 {
+  color: #000000;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.pro-griglia-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px 60px;
+}
+
+.pro-griglia img {
+  margin: 5px 5px;
+}
+
+#contact-container {
+  background-color: #000000;
+  text-align: center;
+}
+#contact-container h2 {
+  font-size: 35px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 60px;
+}
+
+.mail,
+.linkedin,
+.instagram,
+.github {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.mail a,
+.linkedin a,
+.instagram a,
+.github a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #edf6f9;
+  padding: 0 5px;
+}
+
+.mail a:hover,
+.linkedin a:hover,
+.instagram a:hover,
+.github a:hover {
+  color: #e9d8a6;
+}
+
+.foot-container {
+  text-align: center;
+  padding: 30px 70px;
+}
+
+.back a {
+  text-decoration: none;
+  color: #edf6f9;
+}
+.back a:hover {
+  color: #e9d8a6;
+}
+
+.copy {
+  padding-top: 30px;
+}
+
+/*Media Queries*/
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .about {
+    padding: 30px 100px;
+    line-height: 22px;
+  }
+}
+
+@media only screen and (min-width: 961px) {
+  .about {
+    padding: 30px 350px;
+    line-height: 22px;
+  }
+}
